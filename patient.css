@@ -1,0 +1,540 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --lightblue:rgb(42, 42, 255);
+    --white: white;
+    --grey: grey;
+    --cyan:rgb(103, 255, 255);
+    --black: black;
+    --width: 33vw;
+    --font-family:sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap');
+main{
+    width: 100vw;
+    height: 100vh;
+}
+.bright{
+    border: 30px solid var(--white);
+    background-image: linear-gradient( to bottom left, var(--cyan), var(--lightblue));
+    width: 525px;
+    height: 620px;
+    margin: -50px 0px 0px -140px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.dull{
+    border: 30px solid var(--white);
+    background-color: rgb(103, 255, 255, 0.123);
+    width: 525px;
+    height: 620px;
+    position: fixed;
+    margin: -480px 0px 0px 1000px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;    
+}
+.reg{
+    position: absolute;
+    z-index: 2;
+    top: 30px;
+    left: 330px;
+    width: 600px;
+    height: 50px;
+    background-color: var(--black);
+    border-top-right-radius:10px ;
+    border-top-left-radius: 10px ;
+}
+.title{
+    position: absolute;
+    z-index: 2;
+    top: 13px;
+    left: 213px;
+    font-family: sans-serif;
+    color: var(--white);
+}
+.whitespace{
+    position: absolute;
+    z-index: 2;
+    top: 80px;
+    left: 330px;
+    width: 600px;
+    height: 500px;
+    box-shadow: 0 0 10px gray;
+    background-color: var(--white);
+    border-bottom-right-radius:10px ;
+    border-bottom-left-radius: 10px ;
+}
+label{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.name{
+    position: absolute;
+    z-index: 2;
+    top: 45px;
+    left: 55px;
+}
+.firstname{
+    position: absolute;
+    z-index: 2;
+    top: 35px;
+    left: 150px;
+    width: 183px;
+    height: 40px;
+    background-color: rgb(231, 230, 230);
+    border: solid  transparent;
+    border-top-right-radius:5px ;
+    border-bottom-left-radius:5px ;
+    border-top-left-radius: 5px ;
+    border-bottom-right-radius:5px;
+}
+.fn{
+    position: absolute;
+    z-index: 3;
+    color: rgb(202, 202, 202);
+    font-size: small;
+    font-family: sans-serif;
+    top: 80px;
+    left: 150.5px;
+}
+.ln{
+    position: absolute;
+    z-index: 3;
+    color: rgb(202, 202, 202);
+    font-size: small;
+    font-family: sans-serif;
+    top: 80px;
+    left: 360.5px;
+}
+.lastname{
+    position: absolute;
+    z-index: 2;
+    top: 35px;
+    left: 360px;
+    width: 183px;
+    height: 40px;
+    background-color: rgb(231, 230, 230);
+    border: solid  transparent;
+    border-top-right-radius:5px ;
+    border-bottom-left-radius:5px ;
+    border-top-left-radius: 5px ;
+    border-bottom-right-radius:5px;
+}
+.position{
+    position: absolute;
+    z-index: 2;
+    top: 120px;
+    left: 150px;
+    width: 391px;
+    height: 40px;
+    background-color: rgb(231, 230, 230);
+    border: solid  transparent;
+    border-top-right-radius:5px ;
+    border-bottom-left-radius:5px ;
+    border-top-left-radius: 5px ;
+    border-bottom-right-radius:5px;
+}
+.sickness{
+    position: absolute;
+    z-index: 2;
+    top: 128px;
+    left: 55px;
+}
+.email{
+    position: absolute;
+    z-index: 2;
+    top: 195px;
+    left: 150px;
+    width: 391px;
+    height: 40px;
+    border: solid transparent;
+    background-color: rgb(231, 230, 230);
+    border-top-right-radius:5px ;
+    border-bottom-left-radius:5px ;
+    border-top-left-radius: 5px ;
+    border-bottom-right-radius:5px;
+}
+.emailword{
+    position: absolute;
+    z-index: 2;
+    top: 205px;
+    left: 55px;
+}
+.phoneno{
+    position: absolute;
+    z-index: 2;
+    top: 260px;
+    left: 270px;
+    width: 270px;
+    height: 40px;
+    border: solid transparent;
+    background-color: rgb(231, 230, 230) ;
+    border-top-right-radius:5px ;
+    border-bottom-left-radius:5px ;
+    border-top-left-radius: 5px ;
+    border-bottom-right-radius:5px;
+}
+.areacodeno{
+    position: absolute;
+    z-index: 2;
+    top: 260px;
+    left: 150px;
+    width: 100px;
+    height: 40px;
+    border: solid transparent;
+    background-color: rgb(231, 230, 230) ;
+    border-top-right-radius:5px ;
+    border-bottom-left-radius:5px ;
+    border-top-left-radius: 5px ;
+    border-bottom-right-radius:5px;
+}
+.areacode{
+    position: absolute;
+    z-index: 3;
+    color: rgb(202, 202, 202);
+    font-size: small;
+    font-family: sans-serif;
+    top: 305px;
+    left: 150.5px;
+}
+.phone{
+    position: absolute;
+    z-index: 2;
+    top: 273px;
+    left: 55px;
+}
+select{
+    position: absolute;
+    z-index: 2;
+    top: 340px;
+    left: 150px;
+    width: 391px;
+    height: 40px;
+    border: solid transparent;
+    background-color: rgb(231, 230, 230) ;
+    border-top-right-radius:5px ;
+    border-bottom-left-radius:5px ;
+    border-top-left-radius: 5px ;
+    border-bottom-right-radius:5px;
+}
+.gender{
+    position: absolute;
+    z-index: 2;
+    top: 350px;
+    left: 55px;
+}
+.registerbutton{
+    text-decoration: none;
+    position: absolute;
+    z-index: 2;
+    top: 420px;
+    left: 150px;
+    width: 100px;
+    height: 40px;
+    border: solid transparent;
+    background-color:var(--lightblue);
+    border-top-right-radius:5px ;
+    border-bottom-left-radius:5px ;
+    border-top-left-radius: 5px ;
+    border-bottom-right-radius:5px;
+}
+.registerbutton a:visited {
+    color: var(--white);
+}
+.registerbutton a:active {
+    color:var(--white);
+}
+.registerbutton a{
+    text-decoration: none;
+}
+.back{
+    text-decoration: none;
+    position: absolute;
+    z-index: 2;
+    top: 420px;
+    left: 270px;
+    width: 100px;
+    height: 40px;
+    border: solid transparent;
+    background-color:var(--lightblue);
+    border-top-right-radius:5px ;
+    border-bottom-left-radius:5px ;
+    border-top-left-radius: 5px ;
+    border-bottom-right-radius:5px;
+}
+.back a:visited {
+    color: var(--white);
+}
+.back a:active {
+    color:var(--white);
+}
+.back a{
+    text-decoration: none;
+}
+
+@media screen and  (max-width: 767px) {
+    :root{
+        --lightblue:rgb(42, 42, 255);
+        --white: white;
+        --grey: grey;
+        --cyan:rgb(103, 255, 255);
+        --black: black;
+        --width: 33vw;
+        --font-family:sans-serif;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap');
+    main{
+        width: 100vw;
+        height: 100vh;
+    }
+    .bright{
+        border: 30px solid var(--white);
+        background-image: linear-gradient( to bottom left, var(--cyan), var(--lightblue));
+        width: 525px;
+        height: 620px;
+        margin: -50px 0px 0px -240px;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+    }    
+    .reg{
+        position: absolute;
+        z-index: 2;
+        top: 30px;
+        left: 100px;
+        width: 600px;
+        height: 50px;
+        background-color: var(--black);
+        border-top-right-radius:10px ;
+        border-top-left-radius: 10px ;
+    }
+    .title{
+        position: absolute;
+        z-index: 2;
+        top: 13px;
+        left: 213px;
+        font-family: sans-serif;
+        color: var(--white);
+    }
+    .whitespace{
+        position: absolute;
+        z-index: 2;
+        top: 80px;
+        left: 100px;
+        width: 600px;
+        height: 500px;
+        box-shadow: 0 0 10px gray;
+        background-color: var(--white);
+        border-bottom-right-radius:10px ;
+        border-bottom-left-radius: 10px ;
+    }
+    label{
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    .name{
+        position: absolute;
+        z-index: 2;
+        top: 45px;
+        left: 55px;
+    }
+    .firstname{
+        position: absolute;
+        z-index: 2;
+        top: 35px;
+        left: 150px;
+        width: 183px;
+        height: 40px;
+        background-color: rgb(231, 230, 230);
+        border: solid  transparent;
+        border-top-right-radius:5px ;
+        border-bottom-left-radius:5px ;
+        border-top-left-radius: 5px ;
+        border-bottom-right-radius:5px;
+    }
+    .fn{
+        position: absolute;
+        z-index: 3;
+        color: rgb(202, 202, 202);
+        font-size: small;
+        font-family: sans-serif;
+        top: 80px;
+        left: 150.5px;
+    }
+    .ln{
+        position: absolute;
+        z-index: 3;
+        color: rgb(202, 202, 202);
+        font-size: small;
+        font-family: sans-serif;
+        top: 80px;
+        left: 360.5px;
+    }
+    .lastname{
+        position: absolute;
+        z-index: 2;
+        top: 35px;
+        left: 360px;
+        width: 183px;
+        height: 40px;
+        background-color: rgb(231, 230, 230);
+        border: solid  transparent;
+        border-top-right-radius:5px ;
+        border-bottom-left-radius:5px ;
+        border-top-left-radius: 5px ;
+        border-bottom-right-radius:5px;
+    }
+    .position{
+        position: absolute;
+        z-index: 2;
+        top: 120px;
+        left: 150px;
+        width: 391px;
+        height: 40px;
+        background-color: rgb(231, 230, 230);
+        border: solid  transparent;
+        border-top-right-radius:5px ;
+        border-bottom-left-radius:5px ;
+        border-top-left-radius: 5px ;
+        border-bottom-right-radius:5px;
+    }
+    .sickness{
+        position: absolute;
+        z-index: 2;
+        top: 128px;
+        left: 55px;
+    }
+    .email{
+        position: absolute;
+        z-index: 2;
+        top: 195px;
+        left: 150px;
+        width: 391px;
+        height: 40px;
+        border: solid transparent;
+        background-color: rgb(231, 230, 230);
+        border-top-right-radius:5px ;
+        border-bottom-left-radius:5px ;
+        border-top-left-radius: 5px ;
+        border-bottom-right-radius:5px;
+    }
+    .emailword{
+        position: absolute;
+        z-index: 2;
+        top: 205px;
+        left: 55px;
+    }
+    .phoneno{
+        position: absolute;
+        z-index: 2;
+        top: 260px;
+        left: 270px;
+        width: 270px;
+        height: 40px;
+        border: solid transparent;
+        background-color: rgb(231, 230, 230) ;
+        border-top-right-radius:5px ;
+        border-bottom-left-radius:5px ;
+        border-top-left-radius: 5px ;
+        border-bottom-right-radius:5px;
+    }
+    .areacodeno{
+        position: absolute;
+        z-index: 2;
+        top: 260px;
+        left: 150px;
+        width: 100px;
+        height: 40px;
+        border: solid transparent;
+        background-color: rgb(231, 230, 230) ;
+        border-top-right-radius:5px ;
+        border-bottom-left-radius:5px ;
+        border-top-left-radius: 5px ;
+        border-bottom-right-radius:5px;
+    }
+    .areacode{
+        position: absolute;
+        z-index: 3;
+        color: rgb(202, 202, 202);
+        font-size: small;
+        font-family: sans-serif;
+        top: 305px;
+        left: 150.5px;
+    }
+    .phone{
+        position: absolute;
+        z-index: 2;
+        top: 273px;
+        left: 55px;
+    }
+    select{
+        position: absolute;
+        z-index: 2;
+        top: 340px;
+        left: 150px;
+        width: 391px;
+        height: 40px;
+        border: solid transparent;
+        background-color: rgb(231, 230, 230) ;
+        border-top-right-radius:5px ;
+        border-bottom-left-radius:5px ;
+        border-top-left-radius: 5px ;
+        border-bottom-right-radius:5px;
+    }
+    .gender{
+        position: absolute;
+        z-index: 2;
+        top: 350px;
+        left: 55px;
+    }
+    .registerbutton{
+        text-decoration: none;
+        position: absolute;
+        z-index: 2;
+        top: 420px;
+        left: 150px;
+        width: 100px;
+        height: 40px;
+        border: solid transparent;
+        background-color:var(--lightblue);
+        border-top-right-radius:5px ;
+        border-bottom-left-radius:5px ;
+        border-top-left-radius: 5px ;
+        border-bottom-right-radius:5px;
+    }
+    .registerbutton a:visited {
+        color: var(--white);
+    }
+    .registerbutton a:active {
+        color:var(--white);
+    }
+    .registerbutton a{
+        text-decoration: none;
+    }
+    .back{
+        text-decoration: none;
+        position: absolute;
+        z-index: 2;
+        top: 420px;
+        left: 270px;
+        width: 100px;
+        height: 40px;
+        border: solid transparent;
+        background-color:var(--lightblue);
+        border-top-right-radius:5px ;
+        border-bottom-left-radius:5px ;
+        border-top-left-radius: 5px ;
+        border-bottom-right-radius:5px;
+    }
+    .back a:visited {
+        color: var(--white);
+    }
+    .back a:active {
+        color:var(--white);
+    }
+    .back a{
+        text-decoration: none;
+    }    
+} 

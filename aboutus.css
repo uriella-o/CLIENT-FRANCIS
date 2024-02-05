@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --lightblue:rgb(42, 42, 255);
+    --white: white;
+    --grey: grey;
+    --cyan:rgb(103, 255, 255);
+    --black: black;
+    --width: 33vw;
+    --font-family:sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap');
+main{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to top right, var(--cyan),var(--lightblue)) ;
+}
+.greyarea{
+    width: 100vw;
+    height: 15px;
+    background-image: linear-gradient(to left, var(--lightblue),var(--cyan)) ;
+}
+p{
+    color: var(--white);
+    font-size: x-small;
+    position: absolute;
+}
+.no{
+    top: 2px;
+    left: 1015px;
+}
+.email{
+    top: 2px;
+    left: 850px;
+}
+.fa-envelope{
+    color: var(--white);
+    font-size: x-small;
+    position: absolute;
+    top: 3px;
+    left: 830px;
+}
+.fa-phone{
+    color: var(--white);
+    position: absolute;
+    font-size: xx-small;
+    top: 3px;
+    left: 1000px;
+}
+.panel{
+    width: 100vw;
+    height: 70px;
+    background-color: var(--white);
+}
+.name{
+    position: absolute;
+    font-family: 'Playpen Sans', cursive;
+    background-image: linear-gradient(to right, var(--lightblue),var(--cyan));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    top: 28px;
+    left: 35px;
+}
+a:visited {
+    color: var(--lightblue);
+}
+h3 :hover{
+    color: var(--black);
+}
+a:active {
+    color:var(--lightblue);
+}
+h3 a{
+    text-decoration: none;
+}
+h3{
+    position: absolute;
+    color: var(--black);
+    font-family: var(--font-family);
+    top: 40px;
+}
+.home{
+    left: 760px;
+}
+.home:hover{
+    color: var(--lightblue);
+}
+.aboutus{
+    left: 850px;
+}
+.aboutus:hover{
+    color:  var(--lightblue);
+}
+.register{
+    left: 978px;
+}
+.register:hover{
+    color:  var(--lightblue);
+}
+.contactus{
+    left: 1100px;
+}
+.contactus:hover{
+    color:  var(--lightblue);
+}
+.au{
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    left: 300px;
+    color: var(--white);
+    font-family: sans-serif;
+}
+@media screen and  (max-width: 767px) { 
+    :root{
+        --lightblue:rgb(42, 42, 255);
+        --white: white;
+        --grey: grey;
+        --cyan:rgb(103, 255, 255);
+        --black: black;
+        --width: 33vw;
+        --font-family:sans-serif;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap');
+    main{
+        width: 100vw;
+        height: 100vh;
+        background-image: linear-gradient(to top right,var(--cyan), var(--lightblue)) ;
+    }
+    .greyarea{
+        width: 100vw;
+        height: 15px;
+        background-image: linear-gradient(to left, var(--lightblue),var(--cyan)) ;
+    }
+    p{
+        color: var(--white);
+        font-size: x-small;
+        position: absolute;
+    }
+    .no{
+        top: 2px;
+        left: 567px;
+    }
+    .email{
+        top: 2px;
+        left: 120px;
+    }
+    .fa-envelope{
+        color: var(--white);
+        font-size: x-small;
+        position: absolute;
+        top: 3px;
+        left: 100px;
+    }
+    .fa-phone{
+        color: var(--white);
+        position: absolute;
+        font-size: xx-small;
+        top: 3px;
+        left: 550px;
+    }
+    .panel{
+        width: 100vw;
+        height: 70px;
+        background-color: var(--white);
+    }
+    .name{
+        position: absolute;
+        z-index: 3;
+        font-family: 'Playpen Sans', cursive;
+        /* background-image: linear-gradient(to right, var(--lightblue),var(--cyan));
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent; */
+        background-image: linear-gradient(to right, var(--white), var(--white));
+        font-size: x-small;
+        top: 0px;
+        left: 370px;
+    }
+    a:visited {
+        color: var(--lightblue);
+    }
+    h3 :hover{
+        color: var(--black);
+    }
+    a:active {
+        color:var(--lightblue);
+    }
+    h3 a{
+        text-decoration: none;
+    }
+    h3{
+        position: absolute;
+        color: var(--black);
+        font-family: var(--font-family);
+        top: 40px;
+    }
+    .home{
+        left: 100px;
+    }
+    .home:hover{
+        color: var(--lightblue);
+    }
+    .aboutus{
+        left: 230px;
+    }
+    .aboutus:hover{
+        color:  var(--lightblue);
+    }
+    .register{
+        left: 395px;
+    }
+    .register:hover{
+        color:  var(--lightblue);
+    }
+    .contactus{
+        left: 550px;
+    }
+    .contactus:hover{
+        color:  var(--lightblue);
+    }
+    span a:hover{
+        color: var(--lightblue);
+        cursor: pointer;
+    }
+    span a{
+        text-decoration: none;
+        color: var(--white);
+    }
+    span{
+        font-family: var(--font-family);
+        font-size: larger;
+        font-weight: bolder;
+    }
+}    

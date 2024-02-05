@@ -1,0 +1,479 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --lightblue:rgb(42, 42, 255);
+    --white: white;
+    --grey: grey;
+    --cyan:rgb(103, 255, 255);
+    --black: black;
+    --width: 33vw;
+    --font-family:sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap');
+main{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to top right, var(--lightblue),var(--cyan)) ;
+}
+.greyarea{
+    width: 100vw;
+    height: 15px;
+    background-image: linear-gradient(to left, var(--lightblue),var(--cyan)) ;
+}
+.panel{
+    width: 100vw;
+    height: 70px;
+    background-color: var(--white);
+}
+.name{
+    position: absolute;
+    font-family: 'Playpen Sans', cursive;
+    background-image: linear-gradient(to right, var(--lightblue),var(--cyan));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    top: 28px;
+    left: 35px;
+}
+h3 a:visited {
+    color: var(--lightblue);
+}
+h3 :hover{
+    color: var(--black);
+}
+h3 a:active {
+    color:var(--lightblue);
+}
+h3 a{
+    text-decoration: none;
+}
+h3{
+    position: absolute;
+    color: var(--black);
+    font-family: var(--font-family);
+    top: 40px;
+}
+.home{
+    left: 760px;
+}
+.home:hover{
+    color: var(--lightblue);
+}
+.aboutus{
+    left: 850px;
+}
+.aboutus:hover{
+    color:  var(--lightblue);
+}
+.register{
+    left: 978px;
+}
+.register:hover{
+    color:  var(--lightblue);
+}
+.contactus{
+    left: 1100px;
+}
+.contactus:hover{
+    color:  var(--lightblue);
+}
+.whitebox{
+    height: 375px;
+    width: 375px;
+    position: absolute;
+    background-color: var(--white);
+    border: solid .2rem transparent;
+    padding: 1rem;
+    top:150px ;
+    left: 470px;
+    border-top-right-radius:50px ;
+    border-bottom-left-radius:50px ;
+    border-top-left-radius: 50px ;
+    border-bottom-right-radius: 50px;
+}
+.createaccount{
+    position: absolute;
+    z-index: 2;
+    font-family: sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    top: 30px;
+    left: 77px;
+}
+.words1{
+    position: absolute;
+    z-index: 2;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: smaller;
+    top: 70px;
+    left: 88px;
+}
+.signin{
+    position: absolute;
+    z-index: 2;
+    font-family: sans-serif;
+    font-size: smaller;
+    top: 70px;
+    left: 255px;
+}
+.signin a:visited {
+    color: var(--lightblue);
+}
+.signin a:active {
+    color:var(--lightblue);
+}
+.username{
+    position: absolute;
+    z-index: 2;
+    top: 130px;
+    left: 30px;
+    width: 310px;
+    height: 40px;
+    border: solid  rgb(231, 230, 230);
+    border-top-right-radius:50px ;
+    border-bottom-left-radius:50px ;
+    border-top-left-radius: 50px ;
+    border-bottom-right-radius: 50px;
+}
+.firstname{
+    position: absolute;
+    z-index: 2;
+    top: 180px;
+    left: 30px;
+    width: 153px;
+    height: 40px;
+    background-color: rgb(231, 230, 230);
+    border: solid  transparent;
+    border-bottom-left-radius:50px ;
+    border-top-left-radius: 50px ;
+}
+.lastname{
+    position: absolute;
+    z-index: 2;
+    top: 180px;
+    left: 188px;
+    width: 153px;
+    height: 40px;
+    background-color: rgb(231, 230, 230);
+    border: solid  transparent;
+    border-bottom-right-radius:50px ;
+    border-top-right-radius: 50px ;
+}
+.email{
+    position: absolute;
+    z-index: 2;
+    top: 230px;
+    left: 30px;
+    width: 310px;
+    height: 40px;
+    border: solid transparent;
+    background-color: rgb(231, 230, 230);
+    border-top-right-radius:50px ;
+    border-bottom-left-radius:50px ;
+    border-top-left-radius: 50px ;
+    border-bottom-right-radius: 50px;
+}
+.signup{
+    text-decoration: none;
+    position: absolute;
+    z-index: 2;
+    top: 280px;
+    left: 30px;
+    width: 310px;
+    height: 40px;
+    border: solid transparent;
+    background-color:var(--lightblue);
+    border-top-right-radius:50px ;
+    border-bottom-left-radius:50px ;
+    border-top-left-radius: 50px ;
+    border-bottom-right-radius: 50px;
+}
+.signup a:visited {
+    color: var(--white);
+}
+.signup a:active {
+    color:var(--white);
+}
+.signup a{
+    text-decoration: none;
+}
+.no{
+    color: var(--white);
+    font-size: x-small;
+    position: absolute;
+    top: 2px;
+    left: 1015px;
+}
+.emaillogo{
+    color: var(--white);
+    font-size: x-small;
+    position: absolute;
+    top: 2px;
+    left: 850px;
+}
+.fa-envelope{
+    color: var(--white);
+    font-size: x-small;
+    position: absolute;
+    top: 3px;
+    left: 830px;
+}
+.fa-phone{
+    color: var(--white);
+    position: absolute;
+    font-size: xx-small;
+    top: 3px;
+    left: 1000px;
+}
+
+@media screen and  (max-width: 767px) { 
+    :root{
+        --lightblue:rgb(42, 42, 255);
+        --white: white;
+        --grey: grey;
+        --cyan:rgb(103, 255, 255);
+        --black: black;
+        --width: 33vw;
+        --font-family:sans-serif;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap');
+    main{
+        width: 100vw;
+        height: 100vh;
+        background-image: linear-gradient(to top right,var(--cyan), var(--lightblue)) ;
+    }
+    .greyarea{
+        width: 100vw;
+        height: 15px;
+        background-image: linear-gradient(to left, var(--lightblue),var(--cyan)) ;
+    }
+    .no{
+        top: 2px;
+        left: 567px;
+    }
+    .email{
+        top: 2px;
+        left: 120px;
+    }
+    .emaillogo{
+        top: 2px;
+        left: 120px;    
+    }
+    .fa-envelope{
+        color: var(--white);
+        font-size: x-small;
+        position: absolute;
+        top: 3px;
+        left: 100px;
+    }
+    .fa-phone{
+        color: var(--white);
+        position: absolute;
+        font-size: xx-small;
+        top: 3px;
+        left: 550px;
+    }
+    .panel{
+        width: 100vw;
+        height: 70px;
+        background-color: var(--white);
+    }
+    .name{
+        position: absolute;
+        z-index: 3;
+        font-family: 'Playpen Sans', cursive;
+        background-image: linear-gradient(to right, var(--white), var(--white));
+        font-size: x-small;
+        top: 0px;
+        left: 370px;
+    }
+    a:visited {
+        color: var(--lightblue);
+    }
+    h3 :hover{
+        color: var(--black);
+    }
+    a:active {
+        color:var(--lightblue);
+    }
+    h3 a{
+        text-decoration: none;
+    }
+    h3{
+        position: absolute;
+        color: var(--black);
+        font-family: var(--font-family);
+        top: 40px;
+    }
+    .home{
+        left: 100px;
+    }
+    .home:hover{
+        color: var(--lightblue);
+    }
+    .aboutus{
+        left: 230px;
+    }
+    .aboutus:hover{
+        color:  var(--lightblue);
+    }
+    .register{
+        left: 395px;
+    }
+    .register:hover{
+        color:  var(--lightblue);
+    }
+    .contactus{
+        left: 550px;
+    }
+    .contactus:hover{
+        color:  var(--lightblue);
+    }
+    span a:hover{
+        color: var(--lightblue);
+        cursor: pointer;
+    }
+    span a{
+        text-decoration: none;
+        color: var(--white);
+    }
+    span{
+        font-family: var(--font-family);
+        font-size: larger;
+        font-weight: bolder;
+    }
+    .whitebox{
+        height: 375px;
+        width: 375px;
+        position: absolute;
+        background-color: var(--white);
+        border: solid .2rem transparent;
+        padding: 1rem;
+        top:150px ;
+        left: 205px;
+        border-top-right-radius:50px ;
+        border-bottom-left-radius:50px ;
+        border-top-left-radius: 50px ;
+        border-bottom-right-radius: 50px;
+    }
+    .createaccount{
+        position: absolute;
+        z-index: 2;
+        font-family: sans-serif;
+        font-size: larger;
+        font-weight: bolder;
+        top: 30px;
+        left: 77px;
+    }
+    .words1{
+        position: absolute;
+        z-index: 2;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: smaller;
+        top: 70px;
+        left: 88px;
+    }
+    .signin{
+        position: absolute;
+        z-index: 2;
+        font-family: sans-serif;
+        font-size: smaller;
+        top: 70px;
+        left: 255px;
+    }
+    .signin a:visited {
+        color: var(--lightblue);
+    }
+    .signin a:active {
+        color:var(--lightblue);
+    }
+    .username{
+        position: absolute;
+        z-index: 2;
+        top: 130px;
+        left: 30px;
+        width: 310px;
+        height: 40px;
+        border: solid  rgb(231, 230, 230);
+        border-top-right-radius:50px ;
+        border-bottom-left-radius:50px ;
+        border-top-left-radius: 50px ;
+        border-bottom-right-radius: 50px;
+    }
+    .firstname{
+        position: absolute;
+        z-index: 2;
+        top: 180px;
+        left: 30px;
+        width: 153px;
+        height: 40px;
+        background-color: rgb(231, 230, 230);
+        border: solid  transparent;
+        border-bottom-left-radius:50px ;
+        border-top-left-radius: 50px ;
+    }
+    .lastname{
+        position: absolute;
+        z-index: 2;
+        top: 180px;
+        left: 188px;
+        width: 153px;
+        height: 40px;
+        background-color: rgb(231, 230, 230);
+        border: solid  transparent;
+        border-bottom-right-radius:50px ;
+        border-top-right-radius: 50px ;
+    }
+    .email{
+        position: absolute;
+        z-index: 2;
+        top: 230px;
+        left: 30px;
+        width: 310px;
+        height: 40px;
+        border: solid transparent;
+        background-color: rgb(231, 230, 230);
+        border-top-right-radius:50px ;
+        border-bottom-left-radius:50px ;
+        border-top-left-radius: 50px ;
+        border-bottom-right-radius: 50px;
+    }
+    .signup{
+        text-decoration: none;
+        position: absolute;
+        z-index: 2;
+        top: 280px;
+        left: 30px;
+        width: 310px;
+        height: 40px;
+        border: solid transparent;
+        background-color:var(--lightblue);
+        border-top-right-radius:50px ;
+        border-bottom-left-radius:50px ;
+        border-top-left-radius: 50px ;
+        border-bottom-right-radius: 50px;
+    }
+    .signup a:visited {
+        color: var(--white);
+    }
+    .signup a:active {
+        color:var(--white);
+    }
+    .signup a{
+        text-decoration: none;
+    }    
+    /* .words1{
+        position: absolute;
+        z-index: 2;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: smaller;
+        top: 70px;
+        left: 88px;
+    } */
+}    
