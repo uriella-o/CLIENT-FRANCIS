@@ -244,7 +244,7 @@ span{
 }
 
 
-@media screen and  (max-width: 767px) { 
+@media screen and  (min-width: 500px) and (max-width:900px) { 
     :root{
         --lightblue:rgb(42, 42, 255);
         --white: white;
@@ -487,6 +487,249 @@ span{
     .p a:active {
         color:var(--white);
     }
+
+    @media screen and (max-width:500px) {
+    :root{
+        --lightblue:rgb(42, 42, 255);
+        --white: white;
+        --grey: grey;
+        --cyan:rgb(103, 255, 255);
+        --black: black;
+        --width: 33vw;
+        --font-family:sans-serif;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap');
+    main{
+        width: 150vw;
+        height: 175vh;
+        background-image: linear-gradient(to top right,var(--cyan), var(--lightblue)) ;
+    }
+    .greyarea{
+        width: 150vw;
+        height: 15px;
+        background-image: linear-gradient(to left, var(--lightblue),var(--cyan)) ;
+    }
+    p{
+        color: var(--white);
+        font-size: x-small;
+        position: absolute;
+    }
+    .no{
+        top: 2px;
+        left: 420px;
+    }
+    .email{
+        top: 2px;
+        left: 60px;
+    }
+    .fa-envelope{
+        color: var(--white);
+        font-size: x-small;
+        position: absolute;
+        top: 3px;
+        left: 40px;
+    }
+    .fa-phone{
+        color: var(--white);
+        position: absolute;
+        font-size: xx-small;
+        top: 3px;
+        left: 400px;
+    }
+    .panel{
+        width: 150vw;
+        height: 70px;
+        background-color: var(--white);
+    }
+    .name{
+        position: absolute;
+        z-index: 3;
+        font-family: 'Playpen Sans', cursive;
+        background-image: linear-gradient(to right, var(--white), var(--white));
+        font-size: x-small;
+        top: 0px;
+        left: 280px;
+    }
+    a:visited {
+        color: var(--lightblue);
+    }
+    h3 :hover{
+        color: var(--black);
+    }
+    a:active {
+        color:var(--lightblue);
+    }
+    h3 a{
+        text-decoration: none;
+    }
+    h3{
+        position: absolute;
+        color: var(--black);
+        font-family: var(--font-family);
+        top: 40px;
+    }
+    .home{
+        left: 40px;
+    }
+    .home:hover{
+        color: var(--lightblue);
+    }
+    .aboutus{
+        left: 140px;
+    }
+    .aboutus:hover{
+        color:  var(--lightblue);
+    }
+    .register{
+        left: 280px;
+    }
+    .register:hover{
+        color:  var(--lightblue);
+    }
+    .contactus{
+        left: 420px;
+    }
+    .contactus:hover{
+        color:  var(--lightblue);
+    }
+    span a:hover{
+        color: var(--lightblue);
+        cursor: pointer;
+    }
+    span a{
+        text-decoration: none;
+        color: var(--white);
+    }
+    span{
+        font-family: var(--font-family);
+        font-size: larger;
+        font-weight: bolder;
+    }
+    .medicalprovider{
+        position: absolute;
+        top: 140px;
+        left: 120px;
+        width: 350px;
+        height: 175px;
+        background-image: url('medicalproviders.jpg');
+        background-size: cover;
+        border-style: solid;
+        border-color: var(--white);
+    }
+    .medicalprovider:hover{
+        transform: scale(1.05);
+        transition: all .3s ease-out;
+    }
+    .md{
+        position: absolute;
+        z-index: 2;
+        top: 75px;
+        left: 75px;
+    }
+    .md a:visited {
+        color: var(--white);
+    }
+    .md a:hover{
+        color: var(--lightblue);
+    }
+    .md a:active {
+        color:var(--white);
+    }
+    .vendors{
+        position: absolute;
+        top: 370px;
+        left: 120px;
+        width: 350px;
+        height: 175px;
+        background-image: url('vendors.jpg');
+        background-size: cover;
+        border-style: solid;
+        border-color: var(--white);
+    }
+    .vendors:hover{
+        transform: scale(1.05);
+        transition: all .3s ease-out;
+    }
+    .v{
+        position: absolute;
+        z-index: 2;
+        top: 75px;
+        left: 115px;
+        font-size: x-large;
+    }
+    .v a:visited {
+        color: var(--white);
+    }
+    .v a:hover{
+        color: var(--lightblue);
+    }
+    .v a:active {
+        color:var(--white);
+    }
+    .researchanddevelopment{
+        position: absolute;
+        top: 600px;
+        left: 120px;
+        width: 350px;
+        height: 175px;
+        background-image: url('researchersanddevelopers.jpg');
+        background-size: cover;
+        border-style: solid;
+        border-color: var(--white);
+    }
+    .researchanddevelopment:hover{
+        transform: scale(1.05);
+        transition: all .3s ease-out;
+    }
+    .rd{
+        position: absolute;
+        z-index: 2;
+        top: 75px;
+        left: 90px;
+    }
+    .rd a:visited {
+        color: var(--white);
+    }
+    .rd a:hover{
+        color: var(--lightblue);
+    }
+    .rd a:active {
+        color:var(--white);
+    }
+    .patient{
+        position: absolute;
+        top: 830px;
+        left: 120px;
+        width: 350px;
+        height: 175px;
+        background-image: url('patient.jpg');
+        background-size: cover;
+        border-style: solid;
+        border-color: var(--white);
+    }
+    .patient:hover{
+        transform: scale(1.05);
+        transition: all .3s ease-out;
+    }
+    .p{
+        position: absolute;
+        z-index: 2;
+        top: 75px;
+        left: 135px;
+        font-size: x-large;
+    }
+    .p a:visited {
+        color: var(--white);
+    }
+    .p a:hover{
+        color: var(--lightblue);
+    }
+    .p a:active {
+        color:var(--white);
+    }
+}
+  
+
 }
   
     
